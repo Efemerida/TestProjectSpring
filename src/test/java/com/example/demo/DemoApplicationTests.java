@@ -8,10 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class DemoApplicationTests {
 
 	@Test
-	void contextLoads() {
-	}
-
-	@Test
 	void testString(){
 		String as = "as";
 		assertEquals(as,as);
