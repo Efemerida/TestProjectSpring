@@ -11,6 +11,7 @@ public class HomeController {
     @GetMapping("/api/hello")
     public ResponseEntity<String> hello(){
         System.out.println("a");
+        System.out.println("a");
         return ResponseEntity.ok("Hello");
     }
 
